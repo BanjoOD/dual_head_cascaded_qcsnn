@@ -198,31 +198,3 @@ Clock frequency: 100 MHz
 6. ☐ Run Vitis HLS: C Simulation → C Synthesis → Export IP
 7. ☐ Build Vivado block design and generate bitstream
 8. ☐ Deploy to PYNQ-Z2 and validate against GPU baseline
-
-
-%\iffalse
-%---
-%
-%## Citation
-%
-%If you use this code in your research, please cite:
-%
-%```bibtex
-%@article{banjo2026qcsnn,
-%  author  = {Olamilekan Banjo and Behnaz Ghoraani},
-%  title   = {A Cascaded Quantized Spiking Neural Network for Real-Time ECG Arrhythmia Detection on Edge Hardware},
-%  journal = {Biomedical Signal Processing and Control},
-%  year    = {2026}
-%}
-%```
-%
-%---
-%
-%## License
-%
-%This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
-%
-%## Acknowledgments
-%
-%Department of Electrical Engineering and Computer Science, Florida Atlantic University.
-%\fi
