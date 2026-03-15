@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/hls4csnn1d_sd",
+                "${workspaceFolder}/include/hls4csnn1d_sd/cblk_sd",
+                "${workspaceFolder}/external/json/include",
+                "${workspaceFolder}/external/HLS_arbitrary_Precision_Types/include",
+                "/opt/tools/Xilinx/2025.1/Vitis/include",
+                "/opt/libtorch-cxx11-abi-shared-with-deps-2.7.1+cu126/libtorch/include",
+                "/opt/libtorch-cxx11-abi-shared-with-deps-2.7.1+cu126/libtorch/include/torch/csrc/api/include",
+                "/usr/include",
+                "/usr/include/python3.12",
+                "/usr/local/include"
+            ],
+            // ②  Add this if you see “undefined symbols” in the editor
+    
+            "defines": ["TORCH_API_INCLUDE_EXTENSION_H"],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64"
+        }
+    ],
+    "version": 4
+}
