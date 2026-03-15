@@ -11,7 +11,7 @@ The QCSNN uses a **dual-head architecture** (binary + 4-class heads) jointly tra
 
 | Metric | GPU (RTX A2000) | FPGA (PYNQ-Z2) |
 |--------|----------------|-----------------|
-| System Accuracy | 99.02% | 99.02% |
+| System Accuracy | 99.02% | 98.61% |
 | Stage-1 Macro F1 | 93.22% | 92.51% |
 | Stage-2 Macro F1 | 91.10% | 89.63% |
 | Power | 63.96 W | 2.02 W (0.33 W accelerator) |
@@ -199,6 +199,8 @@ Clock frequency: 100 MHz
 7. ☐ Build Vivado block design and generate bitstream
 8. ☐ Deploy to PYNQ-Z2 and validate against GPU baseline
 
+
+\iffalse
 ---
 
 ## Citation
@@ -223,3 +225,4 @@ This project is licensed under the MIT License — see [LICENSE](LICENSE) for de
 ## Acknowledgments
 
 Department of Electrical Engineering and Computer Science, Florida Atlantic University.
+\fi
